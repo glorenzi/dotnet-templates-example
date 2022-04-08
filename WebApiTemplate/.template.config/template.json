@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "TUI Musement",
+  "classifications": [ "TUI Musement", "Web", "WebAPI" ],
+  "name": ".NET 6 WebAPI",
+  "identity": "TUIMusement.WebApiTemplate",
+  "groupIdentity":"WebApiTemplate",
+  "shortName": "tuimm.webapi",
+  "tags": {
+    "language": "C#",
+    "type":"project"
+  },
+  "sourceName": "WebApiTemplate",
+  "preferNameDirectory":true
+}
