@@ -27,6 +27,13 @@
       "dataType":"string",
       "defaultValue": "/health",
       "replaces": "/health"
+    },
+    "EnableSwagger": {
+      "displayName": "Enable Swagger",
+      "description": "Enable Swagger generation",
+      "type": "parameter",
+      "dataType":"bool",
+      "defaultValue": "true"
     }
   },
   "sources": [

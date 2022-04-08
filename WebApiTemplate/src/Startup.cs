@@ -21,7 +21,9 @@ public class Startup
         });
         services.AddAuthorization();
         services.AddHealthChecks();
+#if EnableSwagger
         services.AddSwaggerGen();
+#endif
     }
 
     public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -29,8 +31,10 @@ public class Startup
         if (env.IsDevelopment())
         {
             app.UseDeveloperExceptionPage();
+#if EnableSwagger
             app.UseSwagger();
             app.UseSwaggerUI();
+#endif
         }
 
         app.UseRouting();

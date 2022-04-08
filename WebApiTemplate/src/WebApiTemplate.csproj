@@ -8,7 +8,9 @@
 
   <ItemGroup>
     <PackageReference Include="Musement.Extensions.Logging" Version="1.0.0" />
+<!--#if EnableSwagger-->
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+<!--#endif-->
   </ItemGroup>
 
 </Project>
