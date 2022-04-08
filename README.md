@@ -1,1 +1,1 @@
-dotnet-templates-example
+A simple example of .NET templates usage
