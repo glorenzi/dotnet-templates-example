@@ -11,5 +11,26 @@
     "type":"project"
   },
   "sourceName": "WebApiTemplate",
-  "preferNameDirectory":true
+  "preferNameDirectory":true,
+  "symbols": {
+    "CreateDockerfile": {
+      "displayName": "Create Dockerfile",
+      "description": "Create default Dockerfile",
+      "type": "parameter",
+      "dataType":"bool",
+      "defaultValue": "true"
+    }
+  },
+  "sources": [
+    {
+      "modifiers": [
+        {
+          "condition": "(!CreateDockerfile)",
+          "exclude": [
+            "src/Dockerfile"
+          ]
+        }
+      ]
+    }
+  ]
 }
