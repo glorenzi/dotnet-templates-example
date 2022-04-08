@@ -19,6 +19,14 @@
       "type": "parameter",
       "dataType":"bool",
       "defaultValue": "true"
+    },
+    "HealthEndpoint": {
+      "displayName": "Health Endpoint",
+      "description": "Define the endpoint for health checks",
+      "type": "parameter",
+      "dataType":"string",
+      "defaultValue": "/health",
+      "replaces": "/health"
     }
   },
   "sources": [
